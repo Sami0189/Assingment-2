@@ -4,26 +4,30 @@
     font-family: "Mulish", sans-serif;
 }
         /* header section */
+.title{
+    display: flex;
+    gap: 10px;
+}
 nav{
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: space-between;
-    padding: 50px;
-    
+    text-align: center;
+    align-items: center;
+    padding: 90px;
 }
 nav ul{
-display: flex;
-
+    display: flex;
+     list-style: none;
 }
 nav li{
     margin-right: 30px;
-    list-style: none;
 }
-nav li a{
+nav li a {
     text-decoration: none;
     color: black;
+    font-weight: 800;
 }
+
 .header-img{
      width: 86%;
     height: 86vh;
@@ -35,30 +39,326 @@ nav li a{
     position: absolute;
     text-align: center;
     margin-left: 23rem;
-    top: 20rem;
+    top: 25rem;
+}
+
+.header-para-one{
+    color: aliceblue; 
+    font-size: 80px
+}
+.header-para-two{
+    font-size: 20px;
+font-weight: 100;
+ color: aliceblue;
+width: 70%;
+ margin-left: 180px;
 }
 .header-button{
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.3);
 padding: 10px;
-width: 50%;
+width:700px ;
+height: 80px; 
 margin-left: 280px;
+display: grid;
+grid-template-rows: repeat(4,1fr);
 }  
+.header-button-one{
+    background: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    
+}
+.header-button-two{
+    color: aliceblue;
+    border-radius: 5px;
+    background: rgb(255, 84, 0);
+    padding: 10px;
+    border: 0px;
+}
+
+         /* header finish thats means you buy a supra single light */
 
 
+          /* body section one */
+.body-section-one{
+    display: flex;
+   padding: 100px;
+   gap: 450px;
+}
+.some-para{
+    margin-left: 70px;
+    text-align: left;
+}
+.body-section-one-para-one{
+    font-weight: 800;
+    font-size: 35px;
+}
+.body-section-one-para-two{   
+    font-weight: 400;
+    width: 550px;
+}
+.body-section-one-para-three{
+    font-weight: 400;
+    width: 550px;
+}
+.body-section-one-para-four{
+    font-weight: 400;
+    width: 550px;
+}
+.body-section-one-para-five{
+    font-weight: 400;
+    width: 550px;
+}
+.body-section-one-para-six{
+    font-weight: 400;
+    width: 550px;
+}
+.body-section-one-button-one{
+    color: aliceblue;
+    border-radius: 5px;
+    background: rgb(255, 84, 0);
+    padding: 10px;
+    border: 0px;
+    font-size: 25px;
+}
+.body-section-one-img{
+    border: 0px;
+}
+
+
+        /* body section two */
+
+
+.body-section-two-title{
+     text-align: center;
+}
+.body-section-two-para-one{
+    font-weight: 800;
+    font-size: 30px;
+}
+.body-section-two-para-two{
+    width: 600px;
+  margin-left: 650px;
+}
+
+          /* body third section */
+
+.body-section-third-pic-one, .body-section-third-pic-two, .body-section-third-pic-three, .body-section-third-pic-four, .body-section-third-pic-five, .body-section-third-pic-six, .body-section-third-pic-seven{
+    height: 100%;
+    width: 100%;
+}
+
+             /* 2 photo */
+.body-section-third-two-img{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-top: 80px;
+    text-align: center;
+    gap: 13px; 
+}
+.maldives{
+    position: absolute;
+    top: 146rem;
+    left: 26rem;
+    color:white;
+    font-size: 25px;
+}
+.indonesia{
+    position: absolute;
+    top: 146rem;
+    left: 85rem;
+    color: white;
+    font-size: 25px;
+}
+            /* 3 photo */
+
+.body-section-third-three-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 13px;
+    margin-top: 13px;
+}
+.srilanka{
+    position: absolute;
+    top: 179rem;
+    left: 18rem;
+    color:white;
+    font-size: 25px;
+}
+.america{
+    position: absolute;
+    top: 180rem;
+    left: 52rem;
+    color:white;
+    font-size: 25px;
+}
+.kashmir{
+    position: absolute;
+    top: 179rem;
+    left: 94rem;
+    color:white;
+    font-size: 25px;
+}            
+
+            /* last 2 image */
+
+.body-section-third-last-two-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+    margin-top: 13px;
+}
+.bangladesh{
+    position: absolute;
+    top: 223rem;
+    left: 25rem;
+    color:white;
+    font-size: 25px;
+}
+.bandarban{
+    position: absolute;
+    top: 223rem;
+    left: 85rem;
+    color:white;
+    font-size: 25px;
+}            
          /* Media query */
          /* header start */
 
 @media screen and (max-width:600px){
     nav{
         flex-direction: column;
-        text-align: center;
-        margin-left: 200px;
     }
-    nav h2{
-      margin-left: 0px;
-      text-align: center;
-      
+    .header-img{
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
     }
+    .header-title{
+       margin-left: 0px;
+    }
+    .header-para-one{
+       font-size: 40px;
+      margin-left: 100px; 
+    }
+    .header-para-two{
+        font-size: 15px;
+     position: absolute;
+     right: 20px;
+  
+    }
+    .header-button{
+        grid-template-columns: repeat(4,1fr);
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 220px;
+        right: 30px;
+    }
+    .header-button-one{
+        margin-bottom: 45px;
+        width: 295px;
+        height: 50px;
+    }
+    .header-button-two{
+        width: 290px;
+        height: 50px;
+        margin-left: -30px;
+    }
+
 }
-   
+
+@media screen and (min-width:768px) and (max-width:793px) {
+    nav{
+        flex-direction: column;
+    }
+    .header-img{
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+    }
+    .header-title{
+       margin-left: 0px;
+    }
+    .header-para-one{
+       font-size: 40px;
+      margin-left: 200px; 
+    }
+    .header-para-two{
+        font-size: 15px;
+     position: absolute;
+     right: 20px;
+  
+    }
+    .header-button{
+        grid-template-columns: repeat(4,1fr);
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 220px;
+        right: 30px;
+    }
+    .header-button-one{
+        margin-bottom: 45px;
+        width: 295px;
+        height: 50px;
+    }
+    .header-button-two{
+        width: 290px;
+        height: 50px;
+        margin-left: -30px;
+    }
+
+}
+       
+       /* header complete */
+
+
+       /* Now body start thats means now you need to buy a supra wheel */
+     
+       /* body section one */
+       @media screen and (max-width:600px) {
+        .body-section-one{
+            flex-direction: column;
+            padding: 0px;
+            gap: 15px;
+        }
+        .some-para{
+            margin-left: 5px;
+        }
+        .body-section-one-img{
+            margin-left: 20px;
+        }
+
+       }
+       @media screen and (min-width:768px) and (max-width:793px) {
+        .body-section-one{
+            flex-direction: column;
+            padding: 0px;
+            gap: 20px;
+
+        }
+        .body-section-one-img{
+            margin-left: 100px;
+        }
+       }
+
+        /* body section two */
+
+
+@media screen and (max-width:600px){
+    .body-section-two-para-two{
+        margin-left: 30px;
+        width: 500px;
+    }  
+}
+
+ @media screen and (min-width:768px) and (max-width:793px) {
+    .body-section-two-para-two{
+        margin-left: 140px;
+        width: 500px;
+    }  
+ }
