@@ -40,6 +40,25 @@ nav li a{
 .header-button{
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.3);
+padding: 10px;
+width: 50%;
+margin-left: 280px;
+}  
 
+
+         /* Media query */
+         /* header start */
+
+@media screen and (max-width:600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 200px;
+    }
+    nav h2{
+      margin-left: 0px;
+      text-align: center;
+      
+    }
 }
    
