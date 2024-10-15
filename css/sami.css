@@ -151,6 +151,7 @@ grid-template-rows: repeat(4,1fr);
     width: 100%;
 }
 
+
              /* 2 photo */
 .body-section-third-two-img{
     display: grid;
@@ -224,7 +225,97 @@ grid-template-rows: repeat(4,1fr);
     left: 85rem;
     color:white;
     font-size: 25px;
-}            
+}   
+
+            /* body section four */
+
+.body-four{
+    text-align: center;
+}
+.body-four-title{
+    font-weight: 900;
+    font-size: 27px;
+}
+.body-four-para{
+    width: 560px;
+    margin-left: 42rem;
+}
+
+            /* body section five */
+
+.body-five{
+    /* padding: 90px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 20px; */
+   
+}
+
+               /* 1 */
+
+.body-section-five-one{
+    text-align: left;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+    width: 70%;
+    height: 70%;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.body-section-five-img-one{
+ width: 60px;
+}
+.body-section-five-title-one{
+ font-weight: 800;
+ font-size: 20px;
+}
+.body-section-five-para-one{
+ width: 500px;
+}
+               /* 2 */
+
+.body-section-five-two{
+            
+ text-align: left;
+ padding: 30px;
+ background: rgba(41, 206, 246, 0.05);
+ width: 70%;
+    height: 70%;
+    margin-top: 40px;
+ 
+}
+.body-section-five-img-two{
+    width: 60px;
+}
+.body-section-five-title-two{
+    font-weight: 800;
+ font-size: 20px;    
+}
+.body-section-five-para-two{
+     width: 500px;   
+}
+
+               /* 3 */
+ 
+.body-section-five-three{
+ text-align:left;
+ padding: 30px;
+ background: rgba(233, 68, 68, 0.05);
+ margin-left: 35rem;
+ width: 70%;
+    height: 70%;
+    margin-top: 40px;
+}
+.body-section-five-img-three{
+ width: 60px;
+}
+.body-section-five-title-three{
+    font-weight: 800;
+    font-size: 20px;   
+}
+.body-section-five-para-three{
+      width: 500px;      
+}
          /* Media query */
          /* header start */
 
@@ -362,3 +453,141 @@ grid-template-rows: repeat(4,1fr);
         width: 500px;
     }  
  }
+
+
+          /* body third section */
+
+@media screen and (max-width:600px){
+    .body-section-third-two-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .body-section-third-three-img{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .body-section-third-last-two-img{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .maldives{
+        top: 155rem;
+    left: 17rem;
+    }
+    .indonesia{
+        top: 175rem;
+        left: 17rem;
+    }
+    .srilanka{
+        top: 198rem;
+        left: 17rem;
+    }
+    .america{
+        top: 224rem;
+        left: 17rem;
+    }
+    .kashmir{
+        top: 255rem;
+        left: 17rem;
+    }
+    .bangladesh{
+        top: 288rem;
+        left: 17rem;
+    }
+    .bandarban{
+        top: 310rem;
+        left: 17rem;
+    }    
+
+}  
+        
+        
+@media screen and (min-width:768px) and (max-width:793px) {
+    .body-section-third-two-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .body-section-third-three-img{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .body-section-third-last-two-img{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .maldives{
+        top: 160rem;
+    left: 19rem;
+    }
+    .indonesia{
+        top: 183rem;
+        left: 19rem;
+    }
+    .srilanka{
+        top: 213rem;
+        left: 19rem;
+    }
+    .america{
+        top: 248rem;
+        left: 19rem;
+    }
+    .kashmir{
+        top: 285rem;
+        left: 19rem;
+    }
+    .bangladesh{
+        top: 328rem;
+        left: 19rem;
+    }
+    .bandarban{
+        top: 355rem;
+        left: 19rem;
+    }    
+
+}  
+
+
+           /* body section four */
+
+@media screen and (max-width:600px) {
+.body-four-para{
+       margin-left: 10px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:793px) {
+    .body-four-para{
+        margin-left: 90px;
+    }
+}
+  
+         /* body section five */
+
+@media screen and (max-width:600px) {
+.body-five{
+    grid-template-columns: repeat(1,1fr);
+}
+.body-section-five-one{
+margin-left: 20px;
+width: 80%;
+}
+.body-section-five-two{
+    margin-left: 20px;
+    width: 80%;
+}
+.body-section-five-three{
+    margin-left: 20px;
+    width: 80%;
+}
+}
+            
+@media screen and (min-width:768px) and (max-width:793px) {
+    .body-five{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .body-section-five-one{
+    margin-left: 20px;
+    width: 80%;
+    }
+    .body-section-five-two{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .body-section-five-three{
+        margin-left: 20px;
+        width: 80%;
+    }     
+}
