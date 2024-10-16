@@ -448,7 +448,7 @@ margin: 40px 0px;
 .body-eight{
     display: flex;
     padding: 90px;
-    gap: 310px;
+    gap: 350px;
 
 }
 .body-eight-one{
@@ -489,8 +489,95 @@ width: 320px;
 position: absolute;
 text-align: center;
 top: 487rem;
-left: 75rem;
+left: 78rem;
+}
+.body-eight-img{
+    
+}
 
+           /* body nine button */
+
+.body-nine{
+    display: flex;
+    gap: 200px;
+}           
+.body-nine-one{
+    width: 474px;
+    border: 2px solid rgb(255, 84, 0);
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: 230px;
+}           
+.body-nine-title{
+    font-weight: 800;
+    font-size: 25px;
+}
+.body-nine-para{
+    width: 400px;
+}           
+.body-nine-label-one{
+ width:290px;
+ height: 30px;
+ border: 1px solid rgba(19, 19, 24, 0.1);
+ border-radius: 10px;
+}
+.body-nine-label-two{
+    width:290px;
+    height: 30px;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    border-radius: 10px;
+}
+
+
+.body-nine-button{
+    border: 0px;
+    color: aliceblue;
+    background-color:rgb(255, 84, 0);
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.body-nine-para-one{
+    background-color:rgb(255, 84, 0) ;
+    color: aliceblue;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 528rem;
+    left: 89rem;
+}
+.body-nine-title-one{
+    margin: 0px;
+}
+.body-nine-img{
+
+}
+    
+            /* footer title */
+
+
+footer{
+    text-align: center;
+    margin-top: 180px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 120px;
+}
+.footer-title{
+    display: flex;
+    position: absolute;
+    left: 51rem;
+    top: 552rem;
+}
+.footer-para{
+    width: 800px;
+    margin-left: 25rem;
+}
+.footer-icons{
+    gap: 40px;
 }
 /* Media query */
          /* header start */
@@ -498,6 +585,7 @@ left: 75rem;
 @media screen and (max-width:600px){
     nav{
         flex-direction: column;
+     
     }
     .header-img{
         width: 100%;
@@ -506,10 +594,13 @@ left: 75rem;
     }
     .header-title{
        margin-left: 0px;
+    
     }
     .header-para-one{
        font-size: 40px;
       margin-left: 100px; 
+ 
+     
     }
     .header-para-two{
         font-size: 15px;
@@ -908,3 +999,110 @@ width: 80%;
         margin-left: 280px;
     }   
 }
+
+            /* body section eight */
+
+@media screen and (max-width:600px) {
+    .body-eight{
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px;
+    }
+    .body-eight-para-four{
+        top: 537rem;
+        left: 9rem;
+    } 
+    .body-eight-one{
+        margin-left: 20px;
+    } 
+    .body-eight-img{
+        width: 100%;
+    }         
+}
+@media screen and (min-width:768px) and (max-width:793px) {
+    .body-eight{
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+    } 
+    .body-eight-para-four{
+        top: 603rem;
+        left: 13rem;
+    } 
+    .body-eight-one{
+        margin-left: 40px;
+    }
+    .body-eight-img{
+        width: 100%;
+    }   
+} 
+             /* body section nine */
+
+    @media screen and (max-width:600px) {
+        .body-nine{
+            flex-direction: column;
+            gap: 30px;
+        } 
+        .body-nine-one{
+            margin-left: 10px;
+            margin-top: 40px;
+        }
+        .body-nine-img{
+            width: 100%;
+        }
+        .body-nine-para-one{
+            top: 597rem;
+            left: 20rem;
+        }   
+    }
+    @media screen and (min-width:768px) and (max-width:793px) {
+        .body-nine{
+            flex-direction: column;
+            gap: 30px;
+        } 
+        .body-nine-one{
+            margin-left: 90px;
+            margin-top: 40px;
+        }
+        .body-nine-img{
+            width: 100%;
+        }
+        .body-nine-para-one{
+            top: 673rem;
+            left: 29rem;
+        }    
+    } 
+    
+             /* footer start */
+
+    @media screen and (max-width:600px) {
+        footer{
+            margin-top: 70px;
+        }
+        
+        .footer-title{
+            top: 616rem;
+            left:11rem ;
+        }
+        
+        .footer-para{
+            margin-left: -5rem;
+            width: 500px;       
+        }
+    }         
+    
+    @media screen and (min-width:768px) and (max-width:793px) {
+        footer{
+            margin-top: 70px;
+        }
+        
+        .footer-title{
+            top: 692rem;
+            left:17rem ;
+        }
+        
+        .footer-para{
+            margin-left: 2rem;
+            width: 500px;       
+        }
+    }              
