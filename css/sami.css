@@ -577,7 +577,9 @@ footer{
     margin-left: 25rem;
 }
 .footer-icons{
+    display: flex;
     gap: 40px;
+    justify-content: center;
 }
 /* Media query */
          /* header start */
